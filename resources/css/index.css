@@ -6,6 +6,7 @@
 
 body {
     background-color: #333333;
+    width: 1000px;
 }
 
 /* Site Wide Header */
@@ -51,7 +52,6 @@ h2 {
 
 .site-main {
     height: 600px;
-    width: 1000px;
 }
 
 .container-boxes {
@@ -164,3 +164,9 @@ footer {
     top: 50%;
     transform: translate(-50%, -50%); 
 }
+
+@media only screen and (max-width: 480px) {
+    .page-title {
+      width: 270px;
+    } 
+  }
