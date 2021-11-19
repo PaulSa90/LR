@@ -165,8 +165,8 @@ footer {
     transform: translate(-50%, -50%); 
 }
 
-@media only screen and (max-width: 480px) {
-    .page-title {
-      width: 270px;
+@media only screen and (max-width: 800px) {
+    body {
+      width: 500px;
     } 
   }
