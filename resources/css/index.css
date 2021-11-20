@@ -68,25 +68,25 @@ h2 {
     margin: 0 3.45%;
 }
 
-a:hover {
+a:hover, a:active {
     cursor: pointer;
     color: transparent;
     border: 3px solid #333333;
 }
 
-a.one:hover {
+a.one:hover, a.one:active {
     background-image: url("../images/Leuchtspielhaus175250.jpg");
 }
 
-a.two:hover {
+a.two:hover, a.two:active {
     background-image: url("../images/Schimmernder175250.jpg");
 }
 
-a.three:hover {
+a.three:hover, a.three:active {
     background-image: url("../images/Planet175250.jpg");
 }
 
-a.four:hover {
+a.four:hover, a.four:active {
     background-image: url("../images/Allegro175250.jpg");
 }
 
@@ -133,7 +133,6 @@ input[type=submit]:active {
 
 footer {
     height: 80px;
-    width: 100%;
     /* 
     position: fixed;
     bottom: 0px;
@@ -147,7 +146,7 @@ footer {
 .footer-section-left, .footer-section-right {
     color: pink;
     position: absolute;
-    min-width: 150px;
+    width: 150px;
 }
 
 .footer-section-left {
@@ -177,11 +176,11 @@ footer {
         height: 750px;
     }
     .footer-section-left {
-        left: 32%;
+        left: 35%;
         transform: translate(-50%, -50%); 
     }
     .footer-section-right {
-        left: 68%;
+        left: 65%;
         transform: translate(-50%, -50%);
     }
   }
